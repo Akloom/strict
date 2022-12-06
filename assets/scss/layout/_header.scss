@@ -2,6 +2,7 @@
   position: sticky;
   top: 0;
   background: $color-white-50;
+  z-index: 999;
 
   &-content {
     padding-top: 25px;
