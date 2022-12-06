@@ -182,5 +182,35 @@
     padding: 40px;
   }
 }
+.cards {
+  padding: 45px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.card {
+  max-width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+}
+.card h1 {
+  font-weight: 600;
+  font-size: 20.48px;
+  line-height: 25px;
+  color: #000000;
+}
+.card p {
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 16px;
+  color: #9B9B9B;
+}
 
 /*# sourceMappingURL=style.css.map */
